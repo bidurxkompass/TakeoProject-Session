@@ -1,0 +1,20 @@
+package swap;
+
+public class Homework {
+	 public static void main(String[] args){
+		 int a=10;
+		 int b=20;
+		 int c=30;
+		 int d;
+		 d=a+b+c;
+		a=d-(a+b);//now a value is 30
+		b=d-(a+b);//now b value is 10
+		c=d-(a+b);
+		
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+
+}
+}
+ 
